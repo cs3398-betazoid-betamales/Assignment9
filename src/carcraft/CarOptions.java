@@ -1,10 +1,14 @@
 package carcraft;
 
-public abstract class CarOptions implements ICar {
-	protected ICar decoratedCar;
+public class CarOptions implements ICar {
+	protected ICar car;
 
-	public CarOptions(ICar decoratedCar) {
-		super();
-		this.decoratedCar = decoratedCar;
+	public CarOptions(ICar car) {
+	    this.car = car;
+	}
+	
+	@Override
+	public String GetDescription() {
+	   return this.car.GetDescription();
 	}
 }

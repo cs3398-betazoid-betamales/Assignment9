@@ -1,15 +1,15 @@
 package carcraft;
 
-public class PaintColorDecorator extends CarOptions {
-	protected Color color;
+public class PaintColor extends CarOptions {
+	public String color;
 
-	public PaintColorDecorator (ICar decoratedCar, Color color){
-		super(decoratedCar);
+	public PaintColor (ICar car, String color){
+		super(car);
 		this.color = color;
 	}
 
 	@Override
 	public String GetDescription(){
-		return "Paint color: " + this.color;
+		return super.GetDescription() + "Paint color: " + color + "\n";
 	}
 }

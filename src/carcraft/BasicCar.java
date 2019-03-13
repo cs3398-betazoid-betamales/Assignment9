@@ -9,7 +9,7 @@ public class BasicCar implements ICar {
 
     @Override
     public String GetDescription() {
-        return "A Basic Car";
+        return "Building a basic car\n";
     }
 }
 
