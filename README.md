@@ -7,3 +7,6 @@ test
 
 ### Cameron
 Implemented [AirScoop.java](https://github.com/cs3398-betazoid-betamales/Assignment9/blob/master/src/carcraft/AirScoop.java) and contributed to overall class relationships
+
+### Rhett
+Implemented [SportWheels.java](https://github.com/cs3398-betazoid-betamales/Assignment9/blob/master/src/carcraft/SportWheels.java) and contributed to overall class relationships
