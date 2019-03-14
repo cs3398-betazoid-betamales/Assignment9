@@ -10,7 +10,7 @@ public class CarMain {
 		ICar basicCar = new BasicCar();
 
 		System.out.println("Make a Supercharged Basic Car:");
-        ICar SuperCharger = new SuperCharger(basicCar);
+    ICar SuperCharger = new SuperCharger(basicCar);
 		System.out.println(SuperCharger.GetDescription());
 
 		System.out.println("Make a Basic Car with an Air Scoop:");
@@ -29,4 +29,3 @@ public class CarMain {
 	}
 
 }
-
