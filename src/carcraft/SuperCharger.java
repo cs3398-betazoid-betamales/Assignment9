@@ -8,7 +8,7 @@ public class SuperCharger extends CarOptions  {
     public SuperCharger(ICar car)
     {
       super(car);
-      System.out.print(" SuperCharger Constructor\n");
+      System.out.print("SuperCharger Constructor\n");
 			SuperCharger = "SuperCharger";
     }
 
@@ -16,7 +16,7 @@ public class SuperCharger extends CarOptions  {
     public String GetDescription()
   	{
       
-      return super.GetDescription() + "Adding" + SuperCharger + "\n";
+      return super.GetDescription() + "Adding " + SuperCharger + "\n";
   	}
 }
 
