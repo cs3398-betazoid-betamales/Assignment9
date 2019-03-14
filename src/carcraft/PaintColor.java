@@ -5,6 +5,7 @@ public class PaintColor extends CarOptions {
 
 	public PaintColor (ICar car, String color){
 		super(car);
+		System.out.println("Paint Color constructor");
 		this.color = color;
 	}
 
