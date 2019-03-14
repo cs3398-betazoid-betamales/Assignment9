@@ -10,19 +10,19 @@ public class CarMain {
 		ICar basicCar = new BasicCar();
 
 		System.out.println("Make a Supercharged Basic Car:");
-        ICar carWithSuperCharger = new CarWithSuperCharger(basicCar);
-		System.out.println(carWithSuperCharger.GetDescription());
+        ICar SuperCharger = new SuperCharger(basicCar);
+		System.out.println(SuperCharger.GetDescription());
 
 		System.out.println("Make a Basic Car with an Air Scoop:");
 		ICar carWithAirScoop = new AirScoop(basicCar);
 		System.out.println(carWithAirScoop.GetDescription());
 
 		System.out.println("MORE OPTIONS!:");
-		ICar carWithMoreOptions = new AirScoop(new CarWithSuperCharger(new BasicCar()));
+		ICar carWithMoreOptions = new AirScoop(new SuperCharger(new BasicCar()));
 		System.out.println(carWithMoreOptions.GetDescription());
 
 		System.out.println("Super charged blue car with air scoop.");
-		ICar prettyMuscleCar = new PaintColor(new CarWithSuperCharger(new AirScoop(new BasicCar())), "Blue");
+		ICar prettyMuscleCar = new PaintColor(new SuperCharger(new AirScoop(new BasicCar())), "Blue");
 		System.out.println(prettyMuscleCar.GetDescription());
 
 

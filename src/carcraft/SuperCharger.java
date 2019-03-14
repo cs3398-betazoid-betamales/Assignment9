@@ -1,14 +1,14 @@
 package carcraft;
 
-public class CarWithSuperCharger extends CarOptions  {
+public class SuperCharger extends CarOptions  {
 
 	public String SuperCharger;
 
 
-    public CarWithSuperCharger(ICar car)
+    public SuperCharger(ICar car)
     {
       super(car);
-      System.out.print(" CarWithSuperCharger Constructor\n");
+      System.out.print(" SuperCharger Constructor\n");
 			SuperCharger = "SuperCharger";
     }
 
