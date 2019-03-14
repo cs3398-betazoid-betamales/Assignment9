@@ -12,3 +12,6 @@ Implemented [SportWheels.java](https://github.com/cs3398-betazoid-betamales/Assi
 
 ### Nicholas 
 Contributed to [SuperCharger.java](https://github.com/cs3398-betazoid-betamales/Assignment9/blob/master/src/carcraft/SuperCharger.java) and help with debugging multiple decorations
+
+### Richard 
+Contributed to [PaintColor.java](https://github.com/cs3398-betazoid-betamales/Assignment9/blob/master/src/carcraft/PaintColor.java) 
