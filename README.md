@@ -10,3 +10,6 @@ Implemented [AirScoop.java](https://github.com/cs3398-betazoid-betamales/Assignm
 
 ### Rhett
 Implemented [SportWheels.java](https://github.com/cs3398-betazoid-betamales/Assignment9/blob/master/src/carcraft/SportWheels.java)
+
+### Nicholas 
+Contributed to [SuperCharger.java](https://github.com/cs3398-betazoid-betamales/Assignment9/blob/master/src/carcraft/SuperCharger.java) and help with debugging multiple decorations
